@@ -24,9 +24,6 @@ public class RestApiClient {
                 .request(MediaType.APPLICATION_JSON)
                 .get(String.class);
 
-        //Message msg = response.readEntity(Message.class);
-        //Assert.assertEquals(msg.getMessage(), "Hello world!");
-
         System.out.println(response);
     }
 }
